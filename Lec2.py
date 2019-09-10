@@ -64,11 +64,9 @@ print (int(1.3), bool(-1.5), bool(0))
 #%%
 a = 'String1'
 b = 'String2'
-c = '''
-Very long string
+c = '''Very long string
 multi-line string
-Русскоязычная строка
-'''
+Русскоязычная строка'''
 
 # Comment
 """
@@ -81,3 +79,90 @@ print(b, c)
 #%%
 
 print (len(a),len(b), len(c))
+#%%
+
+
+
+print (a, a[2:4], a[4])
+#%%
+
+print(c.replace("\n", " ").split(" "))
+#%%
+
+
+
+print ("\"line\" with quotes")
+
+#%%
+
+
+c[3] = 'a'
+#%%
+
+print (str(None)+str(1)+str(1.0), str(1+2j))
+
+
+
+#%%
+
+print (int("123")+2)
+
+print (bool("True"))
+
+#%%
+# в питоне работает сборщик мусора
+# если нет ссылок на куски кода, то он удаляется
+
+
+# КОРТЭЖИ  - комбинация безымянных полей
+
+#%%
+
+a = (1, "Str", True, 2, 3, 4)
+print (a, a[1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
