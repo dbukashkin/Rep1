@@ -114,36 +114,68 @@ print (bool("True"))
 # если нет ссылок на куски кода, то он удаляется
 
 
-# КОРТЭЖИ  - комбинация безымянных полей
+# КОРТЭЖИ (tuple)  - комбинация безымянных полей
 
 #%%
 
 a = (1, "Str", True, 2, 3, 4)
-print (a, a[1])
+print (a, a[1], a[2:5])
+#%%
+# cortage iz odnogo elementa
+a = (1) # ne tak
+
+# variantov 2
+
+a =  (1,)
+print (a)
+#%%
+
+# spiski  - mozhet sostoyat iz raznorodnyh elementov
+
+a = [4, 5, 6, 4, 3, 2, 1, 8, 7, 6, 5]
+print (a)
+a[4] = 10
+print (a)
+
+#%%
+#a.sort()
+a = [4, 5, 6, 4, 3, 2, 1, 8, 7, 6, 5]
+print (sorted(a))
+print (a)
 
 
+#%%
 
+a.append(12)
+print (a)
 
+a.extend ([1,2, 3])
+a.append([1, 2, 3])
+print (a)
+#%%
 
+a = list ("String123")
+print (a)
 
+#%%
 
+b = ",".join(a)
+print(b)
 
+#%%
 
+print (b*3)
 
+#%%
+a = [1, 2, 3]
 
+print (a*3, a+a)
 
+#%%
 
-
-
-
-
-
-
-
-
-
-
-
+a = [1, 2, 3]
+a.insert(2, "qwe")
+print (a)
 
 
 
