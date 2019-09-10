@@ -176,11 +176,34 @@ print (a*3, a+a)
 a = [1, 2, 3]
 a.insert(2, "qwe")
 print (a)
+#%%
+
+# СЛОВАРЬ
+
+a = {1:12, (1,2):32, "S":"ds"}
+print (a, a[1], a["S"])
 
 
+#
 
+a = {"name":"Ivan", "age":20}
+print (a["name"], a["age"])
 
+a["gender"] = "male"
+print (a)
 
+#%%
+
+# Множества
+
+a = {1, 2, "Qwerrt", 235.5}
+b = {1,3,4, "Qwerrt"}
+print (a)
+print(b)
+print (a&b)
+print (a|b)
+
+print (235.5 in a)
 
 
 
