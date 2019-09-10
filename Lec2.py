@@ -52,6 +52,32 @@ b = 2.435e-13
 from numpy import abs  
 
 print (abs(a-b)<1.e-9)
+#%%
+a = 1+2j
+b = 3+1j
+#%%
 
 
+print (float(1), float(True))
+#%%
+print (int(1.3), bool(-1.5), bool(0))
+#%%
+a = 'String1'
+b = 'String2'
+c = '''
+Very long string
+multi-line string
+Русскоязычная строка
+'''
 
+# Comment
+"""
+
+Some descritpion
+"""
+print (a)
+print(b, c)
+
+#%%
+
+print (len(a),len(b), len(c))
